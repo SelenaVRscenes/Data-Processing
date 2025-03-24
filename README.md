@@ -34,7 +34,7 @@ This repository contains Python scripts for preprocessing, resampling, and analy
 ### **Spatiotemporal Resampling & Analysis**  
 - **`SpaceTimeResampeMSdata.py`** – Performs both **time resampling** (for synchronization) and **spatial resampling** (to normalize trajectory length), making motion data consistent across samples.  
 - **`TimeSpaceResampeMSdata_visOnlyEpx2_v2.py`** – A visualization-optimized version of the above, designed for quickly displaying results with **trajectory overlays and movement plots**.  
-- **`TimeSpaceResampeMSdata_visOnlyEpx2-7-2.py`** – Main data processing script for **Experiments conducted on June 13-15, 2023**, focusing on:  
+- **`TimeSpaceResampeMSdata_visOnlyEpx2-7-2.py`** – Main data processing script for the experimental data processing, focusing on:  
   - **Time & space resampling**  
   - **Filtering out oscillations**  
   - **Extracting key movement metrics** (turning points, area covered, trajectory length, and time to complete tasks)  
